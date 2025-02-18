@@ -1,1 +1,296 @@
-html{background-color: brown;}
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+html, body{
+    margin: 0;
+        font-family: "Rajdhani", serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+
+body {
+    background-color:rgb(231, 249, 249);
+}
+
+#red {
+    background-color: rgb(185, 192, 188);
+}
+
+  #perfumefrontpage {
+    position: relative;
+    width: 150vw;
+    height: 30vh;
+    background: linear-gradient(hsl(102, 25%, 70%), rgb(129, 188, 218));
+  /*   background: radial-gradient(red, blue); */
+  /*   background: conic-gradient(red, blue); */
+  }
+
+
+
+  body {
+    min-height: 500vh;
+  }
+  
+  #plate {
+    width: 800px;
+    height: 400px;
+    background-image: url("perfume\ base.jpg");
+    position: fixed;
+    top: calc(50vh - 20px);
+    left: calc(50vw - 400px);
+  }
+  
+  .sushispacer {
+    height: 50vh;
+  }
+  
+  #sushi1{
+    position: sticky;
+    left: calc(50vw - 140px);
+    top: calc(50vh - 10px);
+    width: 100px;
+    height: 90px;
+    background-image: url("acnestudio.jpg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #sushi2{
+    position: sticky;
+    left: calc(50vw + 100px);
+    top: calc(50vh - 50px);
+    width: 100px;
+    height: 90px;
+    background-image: url("ysl.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #sushi3{
+    position: sticky;
+    left: calc(50vw + 65px);
+    top: calc(50vh - 50px);
+    width: 100px;
+    height: 90px;
+    background-image: url("diptyque.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+#text1{
+    position:relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size:  5vw;
+    /* font-family: Noe;
+    font-weight: Courier; */
+    color: black;
+  }
+
+  .perfumeimage{
+    width:200px;
+    height:200px;
+  }
+
+  .rabbitimage{
+    width: 150px;
+    height:200px;
+  }
+  
+  #ohnorabbitswap {
+    width:800px;
+    height:800px;
+    background-image: url("rabbit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  
+  #ohnorabbitswap:hover{
+    background-image: url("rabbit2.png");
+  }
+
+
+
+  #ohnorabbitswap2 {
+    width:800px;
+    height:800px;
+    background-image: url("rabbit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  
+  #ohnorabbitswap2:hover {
+    background-image: url("miffy.png");
+  }
+
+  #ohnorabbitswap3 {
+    width:800px;
+    height:800px;
+    background-image: url("rabbit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  
+  #ohnorabbitswap3:hover {
+    background-image: url("Melody.png");
+  }
+
+  #ohnorabbitswap4 {
+    width:800px;
+    height:800px;
+    background-image: url("rabbit.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  
+  #ohnorabbitswap4:hover {
+    background-image: url("familyrabbit.png");
+  }
+  
+
+  #perfumeshop {
+    border-collapse: collapse;
+    position: center;
+    width: 100vw;
+    height: 15vh;
+  }
+  
+  #perfumeshop td {
+    border: 1px solid #fbfcfc;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  #perfumeswap {
+    width:200px;
+    height:200px;
+    background-image: url("ysl.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    vertical-align: middle;
+    
+  }
+  
+  #perfumeswap:hover {
+    background-image: url("yslsmell.jpg");
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  #perfumeswap2 {
+    width:200px;
+    height:200px;
+    background-image: url("diptyque.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  
+  #perfumeswap2:hover {
+    background-image: url("diysmell.png");
+  }
+
+  #perfumeswap3 {
+    text-align: center;
+    vertical-align: middle;
+    width:200px;
+    height:200px;
+    background-image: url("acnestudio.jpg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  
+  #perfumeswap3:hover {
+    background-image: url("acnestudiosmell.png");
+  }
+
+  #perfumeswap4 {
+    width:200px;
+    height:200px;
+    background-image: url("burberry.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  
+  #perfumeswap4:hover {
+    background-image: url("burberrysmell.png");
+  }
+
+  #perfumeswap5 {
+    width:200px;
+    height:200px;
+    background-image: url("chanel.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  
+  #perfumeswap5:hover {
+    background-image: url("chanelsmell.png");
+  }
+
+
+  #perfumeswap6 {
+    width:200px;
+    height:200px;
+    background-image: url("mm6.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  
+  #perfumeswap6:hover {
+    background-image: url("mm6smell.png");
+  }
+
+
+  #perfumeswap7 {
+    width:200px;
+    height:200px;
+    background-image: url("lelabon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  
+  #perfumeswap7:hover {
+    background-image: url("lelabonsmell.png");
+  }
+
+  #perfumeswap8 {
+    width:200px;
+    height:200px;
+    background-image: url("prada.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  
+  #perfumeswap8:hover {
+    background-image: url("pradasmell.png");
+  }
+
+  #perfumeswap9 {
+    width:200px;
+    height:200px;
+    background-image: url("rose.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+  }
+  
+  #perfumeswap9:hover {
+    background-image: url("rosesmell.png");
+  }
+  
+  
