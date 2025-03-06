@@ -1,0 +1,53 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="headline">
+    <div id="textmoving">
+    This is a place to make magic potion! Welcome and make your magic potion. This is a place to make magic potion! Welcome and make your magic potion.
+</div>
+
+<body>
+    <img src="magic.png" class="custom-cursor" id="customCursor">
+    <img src="mag" class="restart-icon" onclick="restartPage()">
+    <div class="container">
+        <div class="image-wrapper">
+            <img src="potion 1.png" alt="Main Image 1">
+            <img src="p3.png" class="bottom-image" alt="Bottom Image 1" onclick="showImage(1)">
+            <img src="frog.png" class="show-image" id="show1" alt="Show Image 1">
+            <div class="show-text" id="text1"> Wow!!You made a Frog!</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="potion2.png" alt="Main Image 2">
+            <img src="p2.png" class="bottom-image" alt="Bottom Image 2" onclick="showImage(2)">
+            <img src="flower.png" class="show-image" id="show2" alt="Show Image 2">
+            <div class="show-text" id="text2">You made some Flowers! Share it!</div>
+        </div>
+        <div class="image-wrapper">
+            <img src="potion3.png" alt="Main Image 3">
+            <img src="p3.png" class="bottom-image" alt="Bottom Image 3" onclick="showImage(3)">
+            <img src="bread.png" class="show-image" id="show3" alt="Show Image 3">
+            <div class="show-text" id="text3">Unexpected!!You made a Sandwich.</div>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener("mousemove", (e) => {
+            const cursor = document.getElementById("customCursor");
+            cursor.style.left = `${e.clientX}px`;
+            cursor.style.top = `${e.clientY}px`;
+        });
+
+        function showImage(index) {
+            const showImg = document.getElementById(`show${index}`);
+            const text = document.getElementById(`text${index}`);
+            showImg.style.opacity = "1";
+            showImg.style.transform = "translateY(-50px)";
+            text.style.opacity = "1";
+        }
+
+        function restartPage() {
+            location.reload();
+        }
+    </script>
+</body>
