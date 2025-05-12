@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Final Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>SPICA LIU</h1>
+
+    <div class="card reading">
+      <div class="plus" onclick="openPopup('popup-reading')">+</div>
+      <h2>Star<br>Generator</h2>
+    </div>
+
+    <div class="card record">
+      <div class="plus" onclick="openPopup('popup-record')">+</div>
+      <h2>Rainy Day<br>Protocol</h2>
+    </div>
+
+    <div class="card perfume">
+      <div class="plus" onclick="openPopup('popup-perfume')">+</div>
+      <h2>Perfume<br>Collection</h2>
+    </div>
+
+    <div class="card magic">
+      <div class="plus" onclick="openPopup('popup-magic')">+</div>
+      <h2>Magic<br>Potion</h2>
+    </div>
+
+    <div class="card emoji">
+      <div class="plus" onclick="openPopup('popup-emoji')">+</div>
+      <h2>Emoji<br>Game</h2>
+    </div>
+
+    <div class="card assignment">
+      <div class="plus" onclick="openPopup('popup-assignment')">+</div>
+      <h2>Planet<br>Clock</h2>
+    </div>
+
+    <div class="card other">
+      <div class="plus" onclick="openPopup('popup-other')">+</div>
+      <h2>Reading<br>Response</h2>
+    </div>
+  </div>
+
+  <!-- Popup Overlays -->
+  <div id="popup-reading" class="popup-overlay">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup('popup-reading')">&times;</span>
+      <h2>Star Generator</h2>
+      <iframe src="star/index.html" width="600" height="400"></iframe>
+    </div>
+  </div>
+
+  <div id="popup-record" class="popup-overlay">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup('popup-record')">&times;</span>
+      <h2>Rainy Day Protocol</h2>
+      <p>Details about the record play project.</p>
+      <iframe src="https://spica0912.github.io/s3a22/" width="600" height="400"></iframe>
+    </div>
+  </div>
+
+  <div id="popup-perfume" class="popup-overlay">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup('popup-perfume')">&times;</span>
+      <h2>Perfume Collection</h2>
+      <p>Notes about your perfume collection project.</p>
+      <iframe src="https://spica0912.github.io/s1fp/" width="600" height="400"></iframe>
+    </div>
+  </div>
+
+  <div id="popup-magic" class="popup-overlay">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup('popup-magic')">&times;</span>
+      <h2>Magic Potion</h2>
+      <p>Description of the magic potion idea.</p>
+      <iframe src="https://spica0912.github.io/s2a2/" width="600" height="400"></iframe>
+    </div>
+  </div>
+
+  <div id="popup-emoji" class="popup-overlay">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup('popup-emoji')">&times;</span>
+      <h2>Emoji Interaction Game</h2>
+      <p>This project is a browser-based interactive distraction game that uses emoji combinations to draw the user’s attention while subtly challenging their memory and perception. The written component exists as a scripted sequence of pages, structured as a set of instructions and visual cues. Each "scene" is built with HTML and CSS, functioning like a digital performance — inviting users to interpret emojis while ignoring (or failing to notice) embedded textual distractions. The game uses this visual engagement to guide the user through a dynamic, perceptual experience.</p>
+      <iframe src="https://spica0912.github.io/s3a2/index.html" width="600" height="400"></iframe>
+    </div>
+  </div>
+
+  <div id="popup-assignment" class="popup-overlay">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup('popup-assignment')">&times;</span>
+      <h2>Planet Clock</h2>
+      <p>Explain the new assignment here.</p>
+      <iframe src="Happy Planets Clock/index3.html" width="400" height="400"></iframe>
+    </div>
+  </div>
+
+  <div id="popup-other" class="popup-overlay">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup('popup-other')">&times;</span>
+      <h2>Reading Response</h2>
+      <div class="scrollable-text">
+        <p>Week2: The reading discusses the relationship between Mail Art and the Mail System, emphasizing that Mail Art relies on the postal system as an integral medium rather than merely a tool for delivery. The author argues that Mail Art is more than simply creating a "postcard" or art collage. It involves a two-step process: creating Mail Art and navigating the restrictions of the mailing process, governed by postal regulations on size, weight, and cost. Despite its challenges, Mail Art serves as a form of resistance against systemic constraints, and its value is seen in how much it affects or inspires the person who receives it. It is quite interesting to see how the author's aspect on Mail Art, as he believes the complexity for Mail Art makes it more meaningful to the user and receiver. Q: Since we don't have mail though the post office anymore, does "Mail Art" still have the potential as it used to be? There are less restrictions on the format of Mail Art(It doesn't have to be delivered physically).  Q: Why does digital mail art we have today have less imagery compared to the mail art in the past?
+          Week3: The reading offers an intriguing perspective on what a website is and what it can bring to you during the process of creating it. The author highlights the duality of a website, describing it as "both subject and object." You use the website to showcase yourself vs the act of building a website helps shape your identity. We can imagine a website as an architectural space—where the interior is flexible, allowing you to rearrange elements freely and without pressure. A website is a space for us to embrace creativity and share information, often envisioned through the metaphor of the internet as a cloud. However, it’s disheartening to see how the internet and websites today increasingly amplify our fears.
+          Q; " I want the web to reflect our hopes and fulfill our dreams, rather than magnify our fears and deepen our divisions." It's disheartening to see fake news and advertising dominating the current era of web design. Is there a way to reignite the original passion and creativity that once defined it?
+          Q; With the rise of web design generators like Wix and WordPress, are people still willing to create their own web designs from scratch? 
+          
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openPopup(id) {
+      document.getElementById(id).style.display = 'flex';
+    }
+
+    function closePopup(id) {
+      document.getElementById(id).style.display = 'none';
+    }
+  </script>
+</body>
+</html>
